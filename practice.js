@@ -32,10 +32,10 @@ let arr = [
 
 ];
 let ckey = ["KeyA","KeyS","KeyD","KeyF","KeyG","KeyH","KeyJ","KeyK","KeyL","KeyP","KeyO"]
-// box.addEventListener("mousemove",function(par){
-//     cursor.style.left = par.clientX +"px";
-//     cursor.style.top = par.clientY +"px";
-// });
+box.addEventListener("mousemove",function(par){
+    cursor.style.left = par.clientX +"px";
+    cursor.style.top = par.clientY +"px";
+});
 
 box.addEventListener("keydown",function(arg){
     let key1 = arg.code;
